@@ -1,4 +1,3 @@
-package BinarySearchTree;
 
 import java.io.*;
 import java.util.Scanner;
