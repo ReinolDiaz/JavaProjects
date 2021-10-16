@@ -14,7 +14,7 @@ A collection of java projects as listed below
     - A word may have multiple meanings, and may be entered at separate times 
         - When this occurs, place each successive meaning on a separate line. 
 
-    -This new meaning must be preceded  by  a  dash.  For  example,  if  you  enter  the  following  words  and  with  their meanings in the following order: 
+    - This new meaning must be preceded  by  a  dash.  For  example,  if  you  enter  the  following  words  and  with  their meanings in the following order: 
         Library, School, Cup, and School, then your output should be a display as shown below. Another requirement 
 
         Cup – a container from which we drink.
