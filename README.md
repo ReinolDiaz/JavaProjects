@@ -9,7 +9,7 @@ A collection of java projects as listed below
 
     - When an entry is to be added to the dictionary you must first enter the word as one string
 
-    -Then enter the meaning as separate string. 
+    - Then enter the meaning as separate string. 
 
     - A word may have multiple meanings, and may be entered at separate times 
         - When this occurs, place each successive meaning on a separate line. 
