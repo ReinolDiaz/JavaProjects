@@ -1,16 +1,25 @@
 package BinarySearchTree;
 
-class WordMeaning {
-    String word;
-    String meaning;
-  
-    public WordMeaning() {
-        this.word = "";
-        this.meaning = "";
-    }
-  
-    public WordMeaning(String word, String meaning) {
-        this.word = word;
-        this.meaning = meaning;
-    }
+public class WordMeaning 
+{    
+	String word, meaning, meaning2;
+	
+	public WordMeaning(String w, String m)
+	{ 
+		word = w;
+		meaning = m;
+	}
+	
+	String getWord()
+	{
+		return word;
+	}
+	
+	String getMeaning()
+	{
+		return meaning;
+	}
+
+
+
 }
