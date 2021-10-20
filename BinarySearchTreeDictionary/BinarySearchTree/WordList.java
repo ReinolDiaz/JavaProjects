@@ -1,41 +1,40 @@
 package BinarySearchTree;
 
 public class WordList {
+	
 	String s;
 
-	
 	public WordList()
 	{
 		s = " ";
 	}
        
-    public void insert(WordMeaningNode node, WordMeaning value) 
-    {
-		if (value.getWord().compareTo(node.value.getWord()) < 0)
-		{ 
-			if (node.left != null) 
-			{ 
+    	public void insert(WordMeaningNode node, WordMeaning value){
+		
+		if (value.getWord().compareTo(node.value.getWord()) < 0){ 
+			
+			if (node.left != null) { 
 				insert(node.left, value); 
 			} 
-			else 
-			{ 
-				s += node.value.getWord() + "  "; 
-				System.out.println(" Inserted [" + value.getWord() + "] to left of [" + node.value.getWord()  + "]");
-				node.left = new WordMeaningNode(value); 
-			} 
+			
+				else{ 
+					s += node.value.getWord() + "  "; 
+					System.out.println(" Inserted [" + value.getWord() + "] to left of [" + node.value.getWord()  + "]");
+					node.left = new WordMeaningNode(value); 
+				}
 		} 
-		else if (value.getWord().compareTo(node.value.getWord())  > 0)
-		{
+		
+		else if (value.getWord().compareTo(node.value.getWord())  > 0){
+			
 			if (node.right != null) 
 			{
 				insert(node.right, value);
 			} 
-			else 
-			{
-				s += node.value.getWord() + "  "; 
-				System.out.println(" Inserted [" + value.getWord() + "] to right of [" + node.value.getWord() + "]");
-				node.right = new WordMeaningNode(value);
-			}
+				else{
+					s += node.value.getWord() + "  "; 
+					System.out.println(" Inserted [" + value.getWord() + "] to right of [" + node.value.getWord() + "]");
+					node.right = new WordMeaningNode(value);
+				}
 		}
 	}
 
